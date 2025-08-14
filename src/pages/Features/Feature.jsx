@@ -35,11 +35,11 @@ const Feature = () => {
         </div>
       </section>
 
-      <section className="opportunity-section">
-        <h2 className="opportunity-title">Creating opportunities for everyone</h2>
+      <section  className="opportunity-section">
+        <h2  className="opportunity-title" >Creating opportunities for everyone</h2>
         <div className="opportunity-cards">
           <div className="opportunity-card card-green">
-            <h3>Benefits for Farmers</h3>
+            <h3 id="opportunity">Benefits for Farmers</h3>
             <ul>
               <li>Better Earnings</li>
               <li>One-stop-sale</li>
@@ -54,7 +54,7 @@ const Feature = () => {
               <li>Competitive pricing</li>
               <li>Doorstep delivery</li>
               <li>Quality grade produce</li>
-              <li>Time-efficient service</li>
+              <li id="opportunity" >Time-efficient service</li>
             </ul>
           </div>
 
