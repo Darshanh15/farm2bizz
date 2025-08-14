@@ -1,0 +1,203 @@
+/* === About/Features Section === */
+.feature-section {
+  background-image: url('../../assets/home/greeps.jpg'); /* Update to your correct image path */
+  background-size: cover;
+  background-position: center right;
+  padding: 100px 40px;
+  position: relative;
+  color: #0f3c0f;
+}
+
+.overlay-box {
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.overlay-box h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 60px;
+  line-height: 1.4;
+}
+
+.features-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.feature-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  width: 300px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.feature-card .icon {
+  font-size: 36px;
+  color: #2e7d32;
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.feature-card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* === Opportunity Section === */
+.opportunity-section {
+  padding: 80px 20px;
+  background: #fff;
+  text-align: center;
+}
+
+.opportunity-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.opportunity-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.opportunity-card {
+  width: 300px;
+  border-radius: 16px;
+  color: #fff;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.opportunity-card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.opportunity-card ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.opportunity-card li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #eee;
+}
+
+/* Card backgrounds */
+.card-green {
+  background: #007a4d url('../../assets/about/fruti.jpg');
+}
+
+.card-grey {
+  background: #4a4a4a url('../../assets/about/fruti.jpg');
+}
+
+.card-dark {
+  background: #1a1a1a url('../../assets/about/fruti.jpg');
+}
+
+/* Base Layout (Desktop) */
+.feature-section {
+  padding: 40px 20px;
+}
+
+.features-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Allow wrapping on smaller widths */
+}
+
+.feature-card {
+  background: white;
+  padding: 20px;
+  width: 300px; /* default card width */
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Opportunity Cards */
+.opportunity-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.opportunity-card {
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+/* Responsive — Tablets & Below */
+@media screen and (max-width: 768px) {
+  .features-box,
+  .opportunity-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-card,
+  .opportunity-card {
+    width: 90%; /* make cards adapt to screen width */
+    max-width: 400px;
+  }
+
+  .overlay-box h2,
+  .opportunity-title {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+/* Extra Small Devices — Mobiles 360px */
+@media screen and (max-width: 480px) {
+  .feature-section {
+    padding: 20px 10px;
+  }
+
+  .feature-card,
+  .opportunity-card {
+    width: 100%; /* full width on mobile */
+  }
+
+  .overlay-box h2 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .feature-card p,
+  .opportunity-card li {
+    font-size: 14px;
+  }
+}
+

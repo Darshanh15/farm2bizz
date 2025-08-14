@@ -1,0 +1,37 @@
+.clients-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.clients-subtitle {
+  color: #2c7a34;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.clients-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.clients-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 0 20px;
+}
+
+.clients-logos img {
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.clients-logos img:hover {
+  transform: scale(1.05);
+}

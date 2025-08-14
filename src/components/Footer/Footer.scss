@@ -1,0 +1,82 @@
+@import '../../style/colors';
+
+.site-footer {
+  background-color: $bg-dark;
+  color: $white-color;
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+
+    .footer-brand h2 {
+      color: #c2185b;
+      margin-bottom: 10px;
+    }
+    .footer-brand img {
+    max-width: 150px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+  }
+
+    .footer-brand p {
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .footer-links h4,
+    .footer-social h4 {
+      margin-bottom: 10px;
+      font-weight: 600;
+      color: $white-color;
+    }
+
+    .footer-links ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 8px;
+
+        a {
+          color: #ccc;
+          text-decoration: none;
+          font-size: 14px;
+
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 12px;
+
+      a {
+        color: #ccc;
+        font-size: 18px;
+        transition: color 0.3s;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+
+  .footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 13px;
+    color: #888;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+  }
+}
