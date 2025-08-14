@@ -1,5 +1,6 @@
 {
   "name": "farm2bizz",
+  "homepage": "https://darshanh15.github.io/farm2bizz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,12 +17,14 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
