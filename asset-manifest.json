@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/farm2bizz/static/css/main.bdcd4206.css",
-    "main.js": "/farm2bizz/static/js/main.66261dbe.js",
+    "main.js": "/farm2bizz/static/js/main.6ec193ee.js",
     "static/js/453.c0dc0c80.chunk.js": "/farm2bizz/static/js/453.c0dc0c80.chunk.js",
     "static/media/woman-farmer.jpg": "/farm2bizz/static/media/woman-farmer.24fafadf77e4ec2e7d46.jpg",
     "static/media/jerry.jpg": "/farm2bizz/static/media/jerry.96db0b23b6990c12530c.jpg",
     "static/media/greeps.jpg": "/farm2bizz/static/media/greeps.571783aeb4e9db34494b.jpg",
     "static/media/fruti.jpg": "/farm2bizz/static/media/fruti.b9685e4377a51cea4c25.jpg",
     "static/media/orange.jpg": "/farm2bizz/static/media/orange.dd2270b84b1937d63bdf.jpg",
-    "static/media/logo.png": "/farm2bizz/static/media/logo.3a35290928b1962d13b6.png",
+    "static/media/logo.png": "/farm2bizz/static/media/logo.4b85250517f48e42de4f.png",
     "static/media/port.png": "/farm2bizz/static/media/port.c5bb229e5badf4e8ceb6.png",
     "static/media/four-points.png": "/farm2bizz/static/media/four-points.4fd8440a02ed3e69b84e.png",
     "static/media/lu-lu-flight.png": "/farm2bizz/static/media/lu-lu-flight.3572512435db4ec9f06c.png",
@@ -23,11 +23,11 @@
     "static/media/le-meridien.jpg": "/farm2bizz/static/media/le-meridien.d00b637c1e2324198abb.jpg",
     "index.html": "/farm2bizz/index.html",
     "main.bdcd4206.css.map": "/farm2bizz/static/css/main.bdcd4206.css.map",
-    "main.66261dbe.js.map": "/farm2bizz/static/js/main.66261dbe.js.map",
+    "main.6ec193ee.js.map": "/farm2bizz/static/js/main.6ec193ee.js.map",
     "453.c0dc0c80.chunk.js.map": "/farm2bizz/static/js/453.c0dc0c80.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdcd4206.css",
-    "static/js/main.66261dbe.js"
+    "static/js/main.6ec193ee.js"
   ]
 }
