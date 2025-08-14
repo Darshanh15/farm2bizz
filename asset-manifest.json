@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/farm2bizz/static/css/main.bdcd4206.css",
+    "main.js": "/farm2bizz/static/js/main.47259f1c.js",
+    "static/js/453.c0dc0c80.chunk.js": "/farm2bizz/static/js/453.c0dc0c80.chunk.js",
+    "static/media/woman-farmer.jpg": "/farm2bizz/static/media/woman-farmer.24fafadf77e4ec2e7d46.jpg",
+    "static/media/jerry.jpg": "/farm2bizz/static/media/jerry.96db0b23b6990c12530c.jpg",
+    "static/media/greeps.jpg": "/farm2bizz/static/media/greeps.571783aeb4e9db34494b.jpg",
+    "static/media/fruti.jpg": "/farm2bizz/static/media/fruti.b9685e4377a51cea4c25.jpg",
+    "static/media/orange.jpg": "/farm2bizz/static/media/orange.dd2270b84b1937d63bdf.jpg",
+    "static/media/port.png": "/farm2bizz/static/media/port.c5bb229e5badf4e8ceb6.png",
+    "static/media/four-points.png": "/farm2bizz/static/media/four-points.4fd8440a02ed3e69b84e.png",
+    "static/media/lu-lu-flight.png": "/farm2bizz/static/media/lu-lu-flight.3572512435db4ec9f06c.png",
+    "static/media/logo.png": "/farm2bizz/static/media/logo.a1d84a5c95a1ab18f9d4.png",
+    "static/media/Holiday-Inn.jpg": "/farm2bizz/static/media/Holiday-Inn.6511516d2c751b751288.jpg",
+    "static/media/old-man-farmer.jpg": "/farm2bizz/static/media/old-man-farmer.4dacab62490d4e5d9fdf.jpg",
+    "static/media/Aster Medcity.png": "/farm2bizz/static/media/Aster Medcity.286a27aaed1af1f2d408.png",
+    "static/media/big-basket.jpg": "/farm2bizz/static/media/big-basket.f9f8ba35101caef78fd1.jpg",
+    "static/media/Hotel Aryaas.png": "/farm2bizz/static/media/Hotel Aryaas.1aee8825c1b6d000aa64.png",
+    "static/media/saravanaaBhavan.jpg": "/farm2bizz/static/media/saravanaaBhavan.1dfab1175dc8e958667f.jpg",
+    "static/media/Marriott-Hotels.png": "/farm2bizz/static/media/Marriott-Hotels.b4c7abac78f92b0e8ebb.png",
+    "static/media/Al-Taza.png": "/farm2bizz/static/media/Al-Taza.94562bc3269f43b39be8.png",
+    "static/media/le-meridien.jpg": "/farm2bizz/static/media/le-meridien.d00b637c1e2324198abb.jpg",
+    "index.html": "/farm2bizz/index.html",
+    "main.bdcd4206.css.map": "/farm2bizz/static/css/main.bdcd4206.css.map",
+    "main.47259f1c.js.map": "/farm2bizz/static/js/main.47259f1c.js.map",
+    "453.c0dc0c80.chunk.js.map": "/farm2bizz/static/js/453.c0dc0c80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdcd4206.css",
+    "static/js/main.47259f1c.js"
+  ]
+}
