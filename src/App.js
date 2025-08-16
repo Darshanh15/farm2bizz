@@ -1,6 +1,6 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import { HashRouter } from "react-router-dom";
 
 
@@ -20,6 +20,8 @@ import Features from "./pages/Features/Feature"
 
 
 import Footer from "./components/Footer/Footer";
+import FruitDetail from './pages/Fruit/FruitDetail';
+import FruitList from './pages/Fruit/FruitList';
 
 
 
@@ -34,6 +36,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/clients" element={<Clients />} />
         <Route path="/features" element={<Features />} />
+        <Route path="/fruit/:id" element={<FruitDetail />} />
+        <Route path="/fruitlist" element={<FruitList />} />
        
         
       </Routes>

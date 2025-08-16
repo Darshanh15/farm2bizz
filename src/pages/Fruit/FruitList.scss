@@ -1,0 +1,48 @@
+.fruit-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); // 4 per row desktop
+  gap: 20px;
+  padding: 20px;
+
+  .fruit-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    img {
+      max-width: 100%;
+      height: 120px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #333;
+    }
+  }
+}
+
+// Tablet view (2 per row)
+@media (max-width: 992px) {
+  .fruit-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Mobile view (1 per row)
+@media (max-width: 576px) {
+  .fruit-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
