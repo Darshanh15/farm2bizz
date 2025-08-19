@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -36,13 +37,17 @@ Message: ${message}`;
     const encodedText = encodeURIComponent(text);
 
     // WhatsApp API link
-    const whatsappLink = `https://wa.me/919035901469?text=${encodedText}`;
+    const whatsappLink = `https://wa.me/919035645733?text=${encodedText}`;
 
     // Open WhatsApp
     window.open(whatsappLink, '_blank');
   };
 
   return (
+    <>
+     <div>
+        <SectionTitle backgroundText="FARMS2Bizz" title="Contact Us" />
+      </div>
     <section className="contact-section">
       <div className="contact-left">
         <p className="contact-subtitle">GET IN TOUCH</p>
@@ -90,6 +95,7 @@ Message: ${message}`;
         </form>
       </div>
     </section>
+    </>
   );
 };
 

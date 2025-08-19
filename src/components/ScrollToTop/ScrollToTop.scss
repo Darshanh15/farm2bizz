@@ -1,0 +1,28 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 1.5rem;  // 24px from bottom
+  right: 1.5rem;   // 24px from right
+  background-color: #2e7d32; // green
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 5%;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #1b5e20; // darker green
+    transform: translateY(-3px);
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+
+  svg {
+    pointer-events: none; // icon not blocking click
+  }
+}

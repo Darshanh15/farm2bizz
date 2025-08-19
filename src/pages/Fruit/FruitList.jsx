@@ -7,6 +7,10 @@ const FruitList = () => {
   const navigate = useNavigate();
 
   return (
+    <>
+      <h1>fruit list</h1>
+
+
     <div className="fruit-grid">
       {fruits.map((fruit) => (
         <div
@@ -19,6 +23,10 @@ const FruitList = () => {
         </div>
       ))}
     </div>
+
+
+    
+    </>
   );
 };
 

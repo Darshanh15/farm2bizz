@@ -8,6 +8,7 @@ import Features from "../Features/Feature";
 import Clients from "../Clients/Clients";
 import Contact from "../Contact/Contact";
 
+
 const Home = () => {
   const navigate = useNavigate();
 
@@ -30,7 +31,8 @@ const Home = () => {
             </p>
             <div className="home-buttons">
               <button
-                className="btn primary">
+                className="btn primary"
+                onClick={() => navigate("/crops")}>
                 Know More
               </button>
 

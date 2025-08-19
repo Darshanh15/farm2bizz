@@ -1,0 +1,222 @@
+$brand: #5a6626;     // olive heading
+$accent: #10b981;    // teal icon
+$muted:  #6b7280;    // text
+
+
+// method 1
+.process {
+  padding: 3rem 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+
+  &__heading {
+    text-align: center;
+    font-weight: 800;
+    font-size: 2rem;
+    color: $brand;
+    margin-bottom: 2rem;
+  }
+
+  /* HORIZONTAL on laptop/desktop, VERTICAL on mobile */
+  &__steps {
+    list-style: none;
+    margin: 0;
+    padding: 2rem 0 0;
+    display: grid;
+    grid-template-columns: 1fr;     // mobile first
+    gap: 2rem;
+    position: relative;
+
+    // horizontal connector line (hidden on mobile)
+    @media (min-width: 900px) {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2.5rem;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 64px;                  // aligns through icon centers
+        left: 6%;
+        right: 6%;
+        height: 2px;
+        background: rgba(0, 0, 0, 0.08);
+      }
+    }
+  }
+
+  &__step {
+    text-align: center;
+
+    @media (max-width: 899px) {
+      text-align: left;
+      display: grid;
+      grid-template-columns: 64px 1fr;
+      column-gap: 1rem;
+      align-items: start;
+    }
+  }
+
+  &__iconWrap {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 0.75rem;
+    border-radius: 999px;
+    background: rgba($accent, 0.1);
+    display: grid;
+    place-items: center;
+
+    @media (max-width: 899px) {
+      margin: 0; // left aligned on mobile
+    }
+  }
+
+  &__badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    width: 26px;
+    height: 26px;
+    border-radius: 999px;
+    background: $brand;
+    color: #fff;
+    font-size: 0.85rem;
+    line-height: 26px;
+    font-weight: 700;
+    box-shadow: 0 4px 10px rgba(0,0,0,.12);
+  }
+
+  &__icon {
+    font-size: 28px;
+    color: $accent;
+  }
+
+  &__title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: $brand;
+    margin: 0 0 0.35rem;
+
+    @media (min-width: 900px) {
+      min-height: 2.4rem; // equalize headings in a row
+    }
+  }
+
+  &__desc {
+    margin: 0;
+    color: $muted;
+    line-height: 1.6;
+    font-size: 0.97rem;
+  }
+}
+
+
+// method 2
+.process-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+
+  .step {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+    position: relative;
+
+    // Circle Number
+    .step-number {
+      background: #4a5d23; // olive color
+      color: #fff;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 16px;
+      position: relative;
+      z-index: 2;
+      flex-shrink: 0;
+    }
+
+    // Content box
+    .step-content {
+      flex: 1;
+      margin-left: 1.5rem;
+      border: 2px solid #facc15; // yellow border
+      border-radius: 12px;
+      padding: 1.5rem;
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+
+      display: flex;
+      flex-direction: column;
+
+      .step-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h3 {
+          font-size: 1.25rem;
+          font-weight: 700;
+          color: #4a5d23;
+        }
+
+        .icon {
+          font-size: 2rem;
+          color: teal;
+        }
+      }
+
+      p {
+        margin-top: 0.75rem;
+        font-size: 0.95rem;
+        line-height: 1.6;
+        color: #555;
+      }
+    }
+  }
+
+  // Vertical line
+  .step::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 2px;
+    height: 100%;
+    background: #ddd;
+    z-index: 1;
+  }
+
+  // Remove line after last step
+  .step:last-child::before {
+    display: none;
+  }
+
+  // 📱 Mobile responsiveness
+  @media (max-width: 768px) {
+    .step {
+      flex-direction: column;
+      align-items: flex-start;
+    
+
+      .step-number {
+        margin-bottom: 1rem;
+      }
+
+      .step-content {
+        margin-left: 45px;
+        width: 80%;
+
+      }
+    }
+
+    .step::before {
+      left: 20px;
+      height: calc(100% - 20px);
+    }
+  }
+}

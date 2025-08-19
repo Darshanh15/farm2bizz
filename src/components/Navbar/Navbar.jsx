@@ -27,21 +27,26 @@ function Navbar() {
       {/* Menu links */}
       <ul className={mobile ? "nav-links nav-links-mobile" : "nav-links"}>
         <li>
-          <Link to="/" onClick={() => setMobile(false)}>Home</Link>
+          <Link to="/" onClick={() => setMobile(false)}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/aboutus" onClick={() => setMobile(false)}>About Us</Link>
+          <Link to="/aboutus" onClick={() => setMobile(false)}>
+            About Us
+          </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/features" onClick={() => setMobile(false)}>Features</Link>
-        </li>
+        </li> */}
         <li>
-          <Link to="/clients" onClick={() => setMobile(false)}>Clients</Link>
+          <Link to="/clients" onClick={() => setMobile(false)}>
+            Clients
+          </Link>
         </li>
 
         {/* Crop Dropdown */}
-        <li className="dropdown">
-          {/* Make Crop clickable */}
+        {/* <li className="dropdown">
           <span
             className="dropdown-toggle"
             onClick={() => {
@@ -49,7 +54,7 @@ function Navbar() {
               setMobile(false);
             }}
           >
-            Crop ▾
+            Frutdetails ▾
           </span>
           <ul className="dropdown-menu">
             {fruits.map((fruit) => (
@@ -66,11 +71,28 @@ function Navbar() {
               </li>
             ))}
           </ul>
+        </li> */}
+
+        
+        <li>
+          <Link to="/processsteps" onClick={() => setMobile(false)}>
+            Our Export
+          </Link>
+        </li>
+        <li>
+          <Link to="/crops" onClick={() => setMobile(false)}>
+            Crops
+          </Link>
         </li>
 
         <li>
-          <Link to="/contact" onClick={() => setMobile(false)}>Contact Us</Link>
+          <Link to="/contact" onClick={() => setMobile(false)}>
+            Contact Us
+          </Link>
         </li>
+        {/* <li>
+          <Link to="/steps" onClick={() => setMobile(false)}>steps</Link>
+        </li> */}
       </ul>
     </nav>
   );

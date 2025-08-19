@@ -22,7 +22,7 @@ const Feature = () => {
     <>
       <section className="feature-section">
         <div className="overlay-box">
-          <h2>Farms2B will transform the business<br />of fresh produce supply chain.</h2>
+          <h2>FARMS2Bizz will transform the business<br />of fresh produce supply chain.</h2>
           <div className="features-box">
             {featuresList.map((feature, index) => (
               <div className="feature-card" key={index}>
