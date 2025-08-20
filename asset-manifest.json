@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/farm2bizz/static/css/main.ac7949d8.css",
-    "main.js": "/farm2bizz/static/js/main.29b28a73.js",
+    "main.css": "/farm2bizz/static/css/main.f477af5d.css",
+    "main.js": "/farm2bizz/static/js/main.11c5556c.js",
     "static/js/453.4ac430af.chunk.js": "/farm2bizz/static/js/453.4ac430af.chunk.js",
     "static/media/root-vegetables.jpg": "/farm2bizz/static/media/root-vegetables.719a00ee0c7336cd649e.jpg",
     "static/media/jerry.jpg": "/farm2bizz/static/media/jerry.96db0b23b6990c12530c.jpg",
@@ -114,12 +114,12 @@
     "static/media/Al-Taza.png": "/farm2bizz/static/media/Al-Taza.94562bc3269f43b39be8.png",
     "static/media/le-meridien.jpg": "/farm2bizz/static/media/le-meridien.d00b637c1e2324198abb.jpg",
     "index.html": "/farm2bizz/index.html",
-    "main.ac7949d8.css.map": "/farm2bizz/static/css/main.ac7949d8.css.map",
-    "main.29b28a73.js.map": "/farm2bizz/static/js/main.29b28a73.js.map",
+    "main.f477af5d.css.map": "/farm2bizz/static/css/main.f477af5d.css.map",
+    "main.11c5556c.js.map": "/farm2bizz/static/js/main.11c5556c.js.map",
     "453.4ac430af.chunk.js.map": "/farm2bizz/static/js/453.4ac430af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac7949d8.css",
-    "static/js/main.29b28a73.js"
+    "static/css/main.f477af5d.css",
+    "static/js/main.11c5556c.js"
   ]
 }
