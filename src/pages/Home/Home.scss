@@ -114,3 +114,151 @@
     }
   }
 }
+
+// -----------------------------------------------------------------------------------
+
+.home-hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+
+  // 🔹 Background Image Carousel
+  .hero-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    animation: scroll-images 30s linear infinite;
+
+    img {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      flex-shrink: 0;
+    }
+  }
+
+  // 🔹 Overlay
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.55); // dark overlay for readability
+    z-index: 1;
+  }
+
+  // 🔹 Dialog Content
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+
+    .hero-subtitle {
+      font-size: 20px;
+      font-weight: 500;
+      margin-bottom: 12px;
+      color: #f1f1f1;
+    }
+
+    .hero-title {
+      font-size: 52px;
+      font-weight: bold;
+      margin-bottom: 18px;
+      line-height: 1.2;
+
+      .highlight {
+        color: #f27a1a;
+      }
+    }
+
+    .hero-description {
+      font-size: 18px;
+      margin-bottom: 28px;
+      color: #dddddd;
+    }
+
+    .hero-buttons {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .btn {
+        padding: 12px 26px;
+        margin: 8px;
+        font-size: 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &.primary {
+          background: #f27a1a;
+          color: #fff;
+
+          &:hover {
+            background: #d96300;
+          }
+        }
+
+        &.secondary {
+          background: #fff;
+          color: #222;
+
+          &:hover {
+            background: #eee;
+          }
+        }
+      }
+    }
+  }
+}
+
+// 🔹 Image Scrolling Animation
+@keyframes scroll-images {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+// 📱 Responsive
+@media (max-width: 768px) {
+  .home-hero {
+    .hero-content {
+      .hero-title {
+        font-size: 34px;
+      }
+      .hero-description {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .home-hero {
+    .hero-content {
+      .hero-title {
+        font-size: 26px;
+      }
+      .hero-subtitle {
+        font-size: 16px;
+      }
+      .hero-description {
+        font-size: 14px;
+      }
+    }
+  }
+}
