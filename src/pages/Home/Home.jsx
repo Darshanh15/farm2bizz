@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import "./Home.css";
+import "./Home.scss";
 import heroBg from "../../assets/home/orange.jpg"; // replace with your hero image path
 import AboutUs from "../About/AboutUs";
 import Features from "../Features/Feature";
@@ -14,10 +14,7 @@ const Home = () => {
 
   return (
     <>
-      <section
-        className="home-hero"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      >
+      <section className="home-hero" style={{ backgroundImage: `url(${heroBg})` }}>
         <div className="home-overlay">
           <div className="home-content">
             <p className="home-subtitle">Agri-Tech Company</p>
@@ -30,16 +27,11 @@ const Home = () => {
               inventory and tech-enabled delivery system.
             </p>
             <div className="home-buttons">
-              <button
-                className="btn primary"
-                onClick={() => navigate("/crops")}>
+              <button className="btn primary" onClick={() => navigate("/crops")}>
                 Know More
               </button>
 
-              <button
-                className="btn secondary"
-                onClick={() => navigate("/contact")}
-              >
+              <button className="btn secondary" onClick={() => navigate("/contact")}>
                 Contact Us
               </button>
             </div>
