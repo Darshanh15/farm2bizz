@@ -35,39 +35,40 @@ const Feature = () => {
         </div>
       </section>
 
-      <section  className="opportunity-section">
-        <h2  className="opportunity-title" >Creating opportunities for everyone</h2>
-        <div className="opportunity-cards">
-          <div className="opportunity-card card-green">
-            <h3 id="opportunity">Benefits for Farmers</h3>
-            <ul>
-              <li>Better Earnings</li>
-              <li>One-stop-sale</li>
-              <li>Payment in 24 hours</li>
-              <li>Transparent weighing</li>
-            </ul>
-          </div>
+      <section className="opportunity-section">
+  <h2 className="opportunity-title">Creating opportunities for everyone</h2>
+  <div className="opportunity-cards">
+    <div className="opportunity-card card-green">
+      <h3>Benefits for Farmers</h3>
+      <ul>
+        <li>Better Earnings</li>
+        <li>One-stop-sale</li>
+        <li>Payment in 24 hours</li>
+        <li>Transparent weighing</li>
+      </ul>
+    </div>
 
-          <div className="opportunity-card card-grey">
-            <h3>Convenience for Retailers</h3>
-            <ul>
-              <li>Competitive pricing</li>
-              <li>Doorstep delivery</li>
-              <li>Quality grade produce</li>
-              <li id="opportunity" >Time-efficient service</li>
-            </ul>
-          </div>
+    <div className="opportunity-card card-grey">
+      <h3>Convenience for Retailers</h3>
+      <ul>
+        <li>Competitive pricing</li>
+        <li>Doorstep delivery</li>
+        <li>Quality grade produce</li>
+        <li>Time-efficient service</li>
+      </ul>
+    </div>
 
-          <div className="opportunity-card card-dark">
-            <h3>Savings for Consumers</h3>
-            <ul>
-              <li>Time-efficient service</li>
-              <li>100% traceable to farm – Improves food safety</li>
-              <li>Better quality</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+    <div className="opportunity-card card-dark">
+      <h3>Savings for Consumers</h3>
+      <ul>
+        <li>Time-efficient service</li>
+        <li>100% traceable to farm – Improves food safety</li>
+        <li>Better quality</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
     </>
   );
 };

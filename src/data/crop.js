@@ -12,42 +12,40 @@ import roots from '../assets/crops/root-vegetables.jpg'
 
 const crops = [
   {
-    id: "vegetables",
-    name: "vegetables",
+    id: "Vegetables",
+    name: "Fresh Vegetables",
     image: vegetable,
     dsort: 'Your crop are on a freshness journey to consumers—and we’re here for it',
     description: 'Your crop are on a freshness journey to consumers—and we’re here for it',
     items: vegetables
   },  
   {
-    id: "fruits",
-    name: "fruits",
+    id: "Fruits",
+    name: "Fresh Fruits",
     image: fruit,
      dsort: 'Your crop are on a freshness journey to consumers—and we’re here for it',
      description: 'Your crop are on a freshness journey to consumers—and we’re here for it',
-     items: fruits
-     
-   
+     items: fruits   
   },
   {
-    id: "leafs",
-    name: "leafs",
+    id: "Fresh Leafs",
+    name: "Leafs",
     image: leaf,
     dsort: 'Your crop are on a freshness journey to consumers—and we’re here for it',
     description: 'Your crop are on a freshness journey to consumers—and we’re here for it',
     items: leafs 
   },
   {
-    id: "exotic",
-    name: "exotic",
+    id: "Fresh Exotic",
+    name: "Exotic",
     image: exotics,
     dsort: 'Your crop are on a freshness journey to consumers—and we’re here for it',
     description: 'Your crop are on a freshness journey to consumers—and we’re here for it',
     items: exotic
   },
   {
-    id: "root",
-    name: "root",
+    id: "Root",
+    name: "Root Vegetables",
     image: roots,
     dsort: 'Your crop are on a freshness journey to consumers—and we’re here for it',
     description: 'Your crop are on a freshness journey to consumers—and we’re here for it',
