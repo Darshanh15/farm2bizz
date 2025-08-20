@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/farm2bizz/static/css/main.51d9430f.css",
+    "main.css": "/farm2bizz/static/css/main.e5f1ba0c.css",
     "main.js": "/farm2bizz/static/js/main.60c22386.js",
     "static/js/453.4ac430af.chunk.js": "/farm2bizz/static/js/453.4ac430af.chunk.js",
     "static/media/root-vegetables.jpg": "/farm2bizz/static/media/root-vegetables.719a00ee0c7336cd649e.jpg",
@@ -113,12 +113,12 @@
     "static/media/Al-Taza.png": "/farm2bizz/static/media/Al-Taza.94562bc3269f43b39be8.png",
     "static/media/le-meridien.jpg": "/farm2bizz/static/media/le-meridien.d00b637c1e2324198abb.jpg",
     "index.html": "/farm2bizz/index.html",
-    "main.51d9430f.css.map": "/farm2bizz/static/css/main.51d9430f.css.map",
+    "main.e5f1ba0c.css.map": "/farm2bizz/static/css/main.e5f1ba0c.css.map",
     "main.60c22386.js.map": "/farm2bizz/static/js/main.60c22386.js.map",
     "453.4ac430af.chunk.js.map": "/farm2bizz/static/js/453.4ac430af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51d9430f.css",
+    "static/css/main.e5f1ba0c.css",
     "static/js/main.60c22386.js"
   ]
 }
