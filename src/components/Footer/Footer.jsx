@@ -13,7 +13,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-brand">
           <Link to="/" ><img src={logo} alt="logo" /></Link>
-          <p>FARM2BIZZ</p>
+          <p>FARM2Bizz</p>
         </div>
 
         <div className="footer-links">
@@ -32,8 +32,9 @@ function Footer() {
   <ul>
     <li><Link to="/" >Home</Link></li>
     <li><Link to="/aboutus" >About Us</Link></li>
-    <li><Link to="/features" >Features</Link></li>
     <li><Link to="/clients" >Clients</Link></li>
+    <li><Link to="/processsteps" >Our Export</Link></li>
+    <li><Link to="/crops" > Crops</Link></li>
     <li><Link to="/contact" >Contact Us</Link></li>
   </ul>
 </div>
@@ -52,7 +53,7 @@ function Footer() {
       
 
       <div className="footer-bottom">
-        © {new Date().getFullYear()} FARM2BIZZ All rights reserved.
+        © {new Date().getFullYear()} FARM2Bizz All rights reserved.
       </div>
     </footer>
   );

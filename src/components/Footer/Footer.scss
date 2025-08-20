@@ -14,7 +14,7 @@
     margin: auto;
 
     .footer-brand h2 {
-      color: #c2185b;
+      color: $logo-color;
       margin-bottom: 10px;
     }
     .footer-brand img {
@@ -49,7 +49,7 @@
           font-size: 14px;
 
           &:hover {
-            color: $primary-color;
+            color: $logo-color;
           }
         }
       }
@@ -65,7 +65,7 @@
         transition: color 0.3s;
 
         &:hover {
-          color: $primary-color;
+          color: $logo-color;
         }
       }
     }
