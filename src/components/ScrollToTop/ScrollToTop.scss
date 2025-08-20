@@ -9,7 +9,7 @@
   padding: 12px;
   border-radius: 5%;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
 
@@ -30,9 +30,18 @@
 /* Make sure it scales well on smaller screens */
 @media (max-width: 768px) {
   .scroll-to-top {
-    bottom: 1rem;
+    bottom: 2rem;
     right: 1rem;
-    padding: 12px;
+    padding: 10px;
     font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-to-top {
+    bottom: 2rem;
+    right: 0.8rem;
+    padding: 10px;
+    font-size: 18px; // even smaller for very small devices
   }
 }
