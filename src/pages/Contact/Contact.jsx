@@ -37,7 +37,7 @@ Message: ${message}`;
     const encodedText = encodeURIComponent(text);
 
     // WhatsApp API link
-    const whatsappLink = `https://wa.me/919035645733?text=${encodedText}`;
+    const whatsappLink = `https://wa.me/919739199919?text=${encodedText}`;
 
     // Open WhatsApp
     window.open(whatsappLink, '_blank');
@@ -65,7 +65,7 @@ Message: ${message}`;
             <div className="icon-box"><FaPhoneAlt /></div>
             <div>
               <h4>Phone</h4>
-              <p>+91 9035901469</p>
+              <p>+91 9739199919</p>
             </div>
           </div>
           <div className="contact-item">
