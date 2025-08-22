@@ -72,8 +72,6 @@ Message: ${message}`;
             <div className="icon-box"><FaEnvelope /></div>
             <div>
               <h4>Email</h4>
-              <p>Mallesh@farms2bizz.com</p>
-              <p>Accounts@farms2bizz.com</p>
               <p>Sales@farms2bizz.com</p>
             </div>
           </div>

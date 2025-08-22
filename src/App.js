@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // import { HashRouter } from "react-router-dom";
 
-
+import "@fontsource/unifrakturcook";
 // scss imports
 import './style/main.scss'
 
