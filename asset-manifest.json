@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/farm2bizz/static/css/main.61de415a.css",
-    "main.js": "/farm2bizz/static/js/main.92b9cafb.js",
+    "main.css": "/farm2bizz/static/css/main.37350744.css",
+    "main.js": "/farm2bizz/static/js/main.6035f70e.js",
     "static/js/453.4ac430af.chunk.js": "/farm2bizz/static/js/453.4ac430af.chunk.js",
     "static/media/root-vegetables.jpg": "/farm2bizz/static/media/root-vegetables.719a00ee0c7336cd649e.jpg",
     "static/media/jerry.jpg": "/farm2bizz/static/media/jerry.96db0b23b6990c12530c.jpg",
@@ -111,15 +111,17 @@
     "static/media/Marriott-Hotels.png": "/farm2bizz/static/media/Marriott-Hotels.b4c7abac78f92b0e8ebb.png",
     "static/media/Banana_Stem.jpg": "/farm2bizz/static/media/Banana_Stem.7680774006a73253afbd.jpg",
     "static/media/ridgegourd.jpg": "/farm2bizz/static/media/ridgegourd.1697411e0b4bd51dee7d.jpg",
+    "static/media/unifrakturcook-latin-700-normal.woff": "/farm2bizz/static/media/unifrakturcook-latin-700-normal.bc3e167e0ee5d00c7a0a.woff",
     "static/media/Al-Taza.png": "/farm2bizz/static/media/Al-Taza.94562bc3269f43b39be8.png",
     "static/media/le-meridien.jpg": "/farm2bizz/static/media/le-meridien.d00b637c1e2324198abb.jpg",
+    "static/media/unifrakturcook-latin-700-normal.woff2": "/farm2bizz/static/media/unifrakturcook-latin-700-normal.f6a7d61f9c59282b59cb.woff2",
     "index.html": "/farm2bizz/index.html",
-    "main.61de415a.css.map": "/farm2bizz/static/css/main.61de415a.css.map",
-    "main.92b9cafb.js.map": "/farm2bizz/static/js/main.92b9cafb.js.map",
+    "main.37350744.css.map": "/farm2bizz/static/css/main.37350744.css.map",
+    "main.6035f70e.js.map": "/farm2bizz/static/js/main.6035f70e.js.map",
     "453.4ac430af.chunk.js.map": "/farm2bizz/static/js/453.4ac430af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61de415a.css",
-    "static/js/main.92b9cafb.js"
+    "static/css/main.37350744.css",
+    "static/js/main.6035f70e.js"
   ]
 }
