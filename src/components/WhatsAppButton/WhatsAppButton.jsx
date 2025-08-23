@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import "./WhatsAppButton.scss";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "919731543787"; // replace with your WhatsApp number (with country code)
+  const phoneNumber = "9190356 45733"; // replace with your WhatsApp number (with country code)
 
   const openWhatsApp = () => {
     window.open(`https://wa.me/${phoneNumber}`, "_blank");
